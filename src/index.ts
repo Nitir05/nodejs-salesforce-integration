@@ -7,7 +7,7 @@ const app: Express = express();
 const port = process.env.PORT || 8080;
 
 app.get("/", (req: Request, res: Response) => {
-    res.send("<h1>Node + Typescript Server</h1>");
+    res.send("<h1>Hello World</h1>");
 });
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
